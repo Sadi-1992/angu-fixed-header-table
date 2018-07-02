@@ -1,7 +1,7 @@
 {
     "name": "angu-fixed-header-table",
     "description": "AngularJS fixed header scrollable table directive",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "repository": {
         "type": "git",
         "url": "https://github.com/Sadi-1992/angu-fixed-header-table.git"
