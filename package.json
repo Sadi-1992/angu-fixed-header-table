@@ -1,5 +1,5 @@
 {
-    "name": "angu-fixed-header-table-by-td",
+    "name": "angu-fixed-header-table",
     "description": "AngularJS fixed header scrollable table directive",
     "version": "1.2.4",
     "repository": {
