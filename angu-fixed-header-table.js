@@ -1,7 +1,7 @@
 ﻿/**
  * AngularJS fixed header scrollable table directive
  * @author Jason Watmore <jason@pointblankdevelopment.com.au> (http://jasonwatmore.com)
- * @version 1.2.0
+ * @version 1.2.6
  */
 (function () {
   angular
@@ -48,8 +48,13 @@
             if(tdElems.offsetWidth > thElem.offsetWidth) columnWidth = tdElems.offsetWidth;
 
             if(thElem) thElem.style.minWidth = columnWidth + 'px';
+            if(thElem) thElem.style.maxWidth = columnWidth + 'px';
             if(thElem) thElem.style.width = columnWidth + 'px';
+            if(tdElems) tdElems.style.minWidth = columnWidth + 'px';
+            if(tdElems) tdElems.style.maxWidth = columnWidth + 'px';
             if(tdElems) tdElems.style.width = columnWidth + 'px';
+            if(tfElems) tfElems.style.minWidth = columnWidth + 'px';
+            if(tfElems) tfElems.style.maxWidth = columnWidth + 'px';
             if(tfElems) tfElems.style.width = columnWidth + 'px';
           });
 
